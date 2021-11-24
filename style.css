@@ -1,0 +1,33 @@
+html, body{
+    min-height: 100%
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+svg{
+    background-color: whitesmoke;
+}
+
+.county:hover{
+    fill: darkslateblue;
+}
+
+#canvas{
+    min-width: 1000px;
+    min-height: 600px
+}
+
+.tooltip{
+    border: 2px solid black;
+    padding: 0.5%;
+    visibility: hidden;
+    height: auto;
+    width: auto;
+    font-size: 1.5em;
+}
